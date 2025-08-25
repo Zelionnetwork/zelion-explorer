@@ -80,7 +80,11 @@ export function TransactionCard({ data, chain, isLoading = false }: TransactionC
       <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-lg sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-2xl">
         <div className="flex items-center justify-between mb-3 sm:mb-4">
           <div className="flex items-center space-x-2 sm:space-x-3">
-            <DocumentTextIcon className="h-6 w-6 sm:h-8 sm:w-8 text-cyan-400" />
+            <img 
+              src="/zelion-logo.png" 
+              alt="Zelion Logo" 
+              className="h-6 w-6 sm:h-8 sm:w-8"
+            />
             <div>
               <h1 className="text-lg sm:text-2xl font-bold text-white">
                 {hasData ? 'Transaction Details' : 'Transaction Explorer'}
@@ -283,7 +287,11 @@ export function TransactionCard({ data, chain, isLoading = false }: TransactionC
       {/* Empty State Message */}
       {!hasData && !hasError && (
         <div className="text-center py-8 sm:py-12">
-          <DocumentTextIcon className="h-12 w-12 sm:h-16 sm:w-16 text-gray-600 mx-auto mb-3 sm:mb-4" />
+          <img 
+            src="/zelion-logo.png" 
+            alt="Zelion Logo" 
+            className="h-12 w-12 sm:h-16 sm:w-16 mx-auto mb-3 sm:mb-4 opacity-60"
+          />
           <div className="text-gray-400 text-base sm:text-lg">Ready to Explore</div>
           <div className="text-gray-500 text-xs sm:text-sm">Enter a transaction hash above to view detailed information</div>
         </div>

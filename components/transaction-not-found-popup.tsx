@@ -18,7 +18,11 @@ export function TransactionNotFoundPopup({ isOpen, onClose, transactionHash, cha
         {/* Header */}
         <div className="flex items-center justify-between mb-4 sm:mb-6">
           <div className="flex items-center space-x-2 sm:space-x-3">
-            <ExclamationTriangleIcon className="h-6 w-6 sm:h-8 sm:w-8 text-yellow-500" />
+            <img 
+              src="/zelion-logo.png" 
+              alt="Zelion Logo" 
+              className="h-6 w-6 sm:h-8 sm:w-8 opacity-80"
+            />
             <h2 className="text-lg sm:text-xl font-bold text-white">Transaction Not Found</h2>
           </div>
           <button

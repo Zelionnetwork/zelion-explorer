@@ -197,9 +197,13 @@ export default function Home() {
             <div className="flex items-center space-x-2 sm:space-x-4">
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg sm:rounded-xl flex items-center justify-center">
-                  <CubeIcon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+                  <img 
+                    src="/zelion-logo.png" 
+                    alt="Zelion Logo" 
+                    className="h-5 w-5 sm:h-6 sm:w-6"
+                  />
                 </div>
-                <h1 className="text-base sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">
+                <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">
                   Zelion Explorer
                 </h1>
               </div>
